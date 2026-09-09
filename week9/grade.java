@@ -1,7 +1,7 @@
 void main() {
     IO.println("Enter your score: ");
     int score = Integer.parseInt(IO.readln());
-    if ((score <= 0) || (score >= 101)) {
+    if ((score < 0) || (score >= 101)) {
         IO.println("You must enter a correct score, try again later.");
     } else if (score >= 80) {
         IO.println("Your grade is A");
