@@ -1,18 +1,16 @@
 void main() {
     IO.println("Enter your score: ");
     int score = Integer.parseInt(IO.readln());
-    char grade = 'E';
     if ((score < 0) || (score >= 101)) {
         IO.println("You must enter a correct score, try again later.");
     } else if (score >= 80) {
-        grade = 'A';
+        IO.println("Your grade is A");
     } else if (score >= 70) {
-        grade = 'B';
+        IO.println("Your grade is B");
     } else if (score >= 60) {
-        grade = 'C';
+        IO.println("Your grade is C");
     } else if (score >= 50) {
-        grade = 'D';
+        IO.println("Your grade is D");
     } else
-        grade = 'E';
-    IO.println("Your grade is:" + grade);
+        IO.println("Your grade is E");
 }
