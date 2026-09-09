@@ -10,5 +10,5 @@ void main() {
     } else if (age <= 59) {
         IO.println("โต");
     } else
-        IO.println("วัยรุ่นฟันปลอม");
+        IO.println("วัยรุ่นฟันน้ำนม");
 }
